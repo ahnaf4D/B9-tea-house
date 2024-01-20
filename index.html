@@ -13,10 +13,27 @@
     <!-- TailwindCSS and DaisyUI -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-
+    <!-- Custom Styles Here -->
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+    <!-- Custom TailwindCSS Here -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
-<body>
+<body class="font-manrope">
 
 </body>
 
